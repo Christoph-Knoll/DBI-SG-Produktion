@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>f38abf92-423d-409b-be35-45ed36272337.SCHEMA:CHRISTOPH</OriginalElement>
+  <nodes>
+    <node x="896.75" y="597.0">f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.TEXT_PARAM</node>
+    <node x="524.75" y="564.0">f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.PARAMETER_EZV</node>
+    <node x="292.0" y="122.0">f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.FORMAT</node>
+    <node x="706.9615384615385" y="266.0">f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.PARAMETER</node>
+    <node x="461.0" y="133.0">f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.EZV_GRUPPE</node>
+    <node x="278.0" y="332.0">f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.KOKILLE</node>
+    <node x="737.4615384615385" y="122.0">f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.SUBAREA</node>
+    <node x="716.75" y="597.0">f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.PATTERN_PARAM</node>
+    <node x="0.0" y="343.0">f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.PFANNE</node>
+    <node x="181.03846153846155" y="564.0">f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.CHARGE</node>
+    <node x="450.0" y="343.0">f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.EZV</node>
+    <node x="737.4615384615385" y="0.0">f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.AREA</node>
+    <node x="139.0" y="343.0">f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.VERTEILER</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.EZV" target="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.EZV_GRUPPE">
+      <point x="0.0" y="-47.0" />
+      <point x="0.0" y="36.0" />
+    </edge>
+    <edge source="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.CHARGE" target="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.EZV">
+      <point x="60.75" y="-80.0" />
+      <point x="322.78846153846155" y="544.0" />
+      <point x="489.25" y="544.0" />
+      <point x="-39.25" y="47.0" />
+    </edge>
+    <edge source="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.PARAMETER_EZV" target="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.EZV">
+      <point x="-43.0" y="-80.0" />
+      <point x="39.25" y="47.0" />
+    </edge>
+    <edge source="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.CHARGE" target="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.PFANNE">
+      <point x="-60.75" y="-80.0" />
+      <point x="201.28846153846155" y="544.0" />
+      <point x="59.5" y="544.0" />
+      <point x="0.0" y="47.0" />
+    </edge>
+    <edge source="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.SUBAREA" target="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.AREA">
+      <point x="0.0" y="-47.0" />
+      <point x="0.0" y="36.0" />
+    </edge>
+    <edge source="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.KOKILLE" target="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.FORMAT">
+      <point x="0.0" y="-58.0" />
+      <point x="0.0" y="47.0" />
+    </edge>
+    <edge source="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.CHARGE" target="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.VERTEILER">
+      <point x="-20.25" y="-80.0" />
+      <point x="241.78846153846155" y="534.0" />
+      <point x="198.5" y="534.0" />
+      <point x="0.0" y="47.0" />
+    </edge>
+    <edge source="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.CHARGE" target="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.KOKILLE">
+      <point x="20.25" y="-80.0" />
+      <point x="282.28846153846155" y="534.0" />
+      <point x="354.0" y="534.0" />
+      <point x="0.0" y="58.0" />
+    </edge>
+    <edge source="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.PARAMETER_EZV" target="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.PARAMETER">
+      <point x="43.0" y="-80.0" />
+      <point x="653.75" y="544.0" />
+      <point x="739.6282051282051" y="544.0" />
+      <point x="-65.33333333333331" y="124.0" />
+    </edge>
+    <edge source="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.PATTERN_PARAM" target="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.PARAMETER">
+      <point x="0.0" y="-47.0" />
+      <point x="796.75" y="544.0" />
+      <point x="804.9615384615385" y="544.0" />
+      <point x="0.0" y="124.0" />
+    </edge>
+    <edge source="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.PARAMETER" target="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.SUBAREA">
+      <point x="0.0" y="-124.0" />
+      <point x="0.0" y="47.0" />
+    </edge>
+    <edge source="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.TEXT_PARAM" target="f38abf92-423d-409b-be35-45ed36272337.TABLE:CHRISTOPH.PARAMETER">
+      <point x="0.0" y="-47.0" />
+      <point x="985.25" y="544.0" />
+      <point x="870.2948717948718" y="544.0" />
+      <point x="65.33333333333331" y="124.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7634408602150538" x="537.5492957746479" y="391.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
